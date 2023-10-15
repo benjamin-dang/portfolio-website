@@ -7,7 +7,6 @@ import { Button } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
-      <Button>button by bootstrap</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
