@@ -1,9 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Components/NavBar';
-import Banner from './Components/Banner';
-import Skills from './Components/Skills';
 
+import {NavBar, Banner, Skills, Projects} from './Components/index';
 
 function App() {
   return (
@@ -11,6 +9,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
+      <Projects/>
     </div>
   );
 }

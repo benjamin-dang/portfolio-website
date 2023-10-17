@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
 import logo from '../assets/img/logo.svg'
@@ -48,9 +48,9 @@ export default function NavBar() {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="" /></a>
-                            <a href="#"><img src={navIcon2} alt="" /></a>
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+                            <a href="/test"><img src={navIcon1} alt="" /></a>
+                            <a href="/test"><img src={navIcon2} alt="" /></a>
+                            <a href="/test"><img src={navIcon3} alt="" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><spann>Lets Connect</spann></button>
                     </span>
